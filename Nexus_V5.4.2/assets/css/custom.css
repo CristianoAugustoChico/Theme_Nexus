@@ -1,0 +1,697 @@
+/*
+Customização de CSS
+Ajustes: cores / tamanhos / fontes / imagens Custom Post e outros elementos de layout
+Author: Cristiano Augusto Cunha Silva
+Ano: 2019
+
+*/
+
+
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #4d4d4d ;
+}
+
+
+/*
+* Bloco Geral
+*/
+
+#leia-mais {
+	clear: both;
+	text-align: right;
+	padding: 10px;
+}
+
+#leia-mais a::after{
+	content: "Ver mais ...";
+	font-weight: 300;
+	color: #000;
+	border-bottom: 3px solid #000;
+}
+
+#leia-mais a:hover{
+	text-decoration: none;
+	border-bottom: solid 2px #000;
+}
+
+.data-time{
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-align: right;
+}
+
+
+/* Menu sidebar */
+
+#box{
+	background-color: #f2f2f2;
+	border: solid 1px #d9d9d9;
+	}
+
+.navegation-title{
+	color: #90b64a !important;
+	font-weight: bold;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	font-size: 14px;
+	margin-top: 0px; 
+	padding: 30px 0px 8px 30px;
+}
+
+.navigation-section a{
+	display: block;
+}
+
+.navegation-section ul{
+	padding: 0px 30px 30px 30px;
+}
+
+.navegation-section li {
+	list-style-type: none;
+	border-bottom: solid 1px #d9d9d9;
+}
+
+.navegation-section li a{
+	display: block;
+	list-style-type: none;
+	padding: 8px 0px 8px 30px;
+}
+
+.navegation-section li a:hover{
+	background-color: #90b64a;
+	font-weight: 400;
+}
+
+.navegation-section li a.active{
+	background-color: #f2f2f2;
+}
+
+.menu li.current_page_item > a, .menu.current_page_ancestor > a, .menu li.current-menu-ancestor > a, .menu li.current-menu-item > a, .menu li.current-menu-parent > a {
+	font-weight: 400;
+	color: #000 !important;
+	border-left: solid 5px #90b64a;
+	height: 100%;
+	z-index: 9999;
+}
+
+.textwidget, .custom-html-widget{
+	padding: 8px 30px 30px 30px !important;
+	font-size: 14px !important;
+}
+
+
+/* Titulo de página e post */
+header h1{
+	margin: 50px 0px 10px 0px !important;
+	border-left: 5px solid #90b64a;
+	padding-left: 10px;
+	font-weight: 400 !important;
+}
+
+/* Titulo de seção */
+.title-seccao{
+	margin: 60px 0px 50px 0px;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+/* Migalha */
+.migalha{
+	margin: 0px 0px 20px 0px;
+	font-size: 12px;
+}
+
+.pathway{
+	color: #90b64a;
+}
+
+/* Decoração de links */
+p > a{
+	border-bottom: 1px dotted #000;
+}
+
+a{
+	color: #000 !important;
+}
+
+
+/* Form */
+
+input[type="submit"] {
+	width: 120px;
+	display: block;
+	border-radius: 5px;
+}
+
+input{
+	display: block;
+	border-radius: 5px !important;
+}
+
+textarea {
+	border-radius: 5px !important;
+}
+
+
+
+/*
+* Bloco Header
+*/
+
+#logo{
+	height: 130px !important;
+}
+
+#nav-menu{
+	margin-top: 40px;
+}
+
+/*
+* Bloco Slider
+*/
+
+#slider{
+	height: 540px;
+	background-color: #f2f2f3;
+}
+
+#border-none{
+	padding: 0px !important;
+}
+
+
+/*
+* Bloco apresentação
+*/
+
+#apresentacao{
+	background-color: #f2f2f3;
+}
+
+#logo-thumb img{
+	padding-top: 20%;
+	padding-left: 20px;
+}
+
+#text-apresentacao{
+	padding: 40px;
+}
+
+/*
+* Bloco Notícias e vídeos
+*/
+
+#videos{
+	background-color: #ffff00;
+}
+
+#thumb-video{
+	margin-bottom: 50px !important;
+}
+
+#thumb-video img{
+	margin-top: 0px;
+	width: 500px;
+	height: 250px;
+	padding: 0px !important;
+}
+
+#thumb-destaque img{
+	margin-top: 0px;
+	width: 100%;
+	height: 300px;
+}
+
+.text-destaque{
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.titulo h1{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+#noticias img{
+	margin-top: 0px;
+	width: 170px;
+	height: 120px;
+}
+
+.news{
+	padding: 0px;
+	background-color: #e6e6e6;
+	margin-bottom: 55px;
+}
+
+div#noticias .row > .titulo h1{
+	padding: 0px !important;
+	font-size: 18px;
+}
+
+#border-seccao{
+	margin: 50px 0px 30px 0px;
+}
+
+
+/*
+* Paginação
+*/
+.pager {
+	padding-left: 0;
+	margin: 20px 0;
+	text-align: center !important;
+	list-style: none;
+}
+
+.pager li {
+	display: inline;
+}
+
+.pager li > a,
+.pager li > span {
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+	text-decoration: none;
+	background-color: #eee;
+}
+
+.pager .next > a,
+.pager .next > span {
+	float: right;
+}
+
+.pager .previous > a,
+.pager .previous > span {
+	float: left;
+}
+
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+	color: #777;
+	cursor: not-allowed;
+	background-color: #fff;
+}
+
+
+
+
+/*
+* Bloco divulgação cientifica
+*/
+
+.divulgacao{
+	background: url("../img/bg_divulgacao.jpg");
+	background-size: cover; 
+}
+
+.divulgacao h1{
+	color: #fff;
+}
+
+#border-none [class="container"]{
+	background-color: transparent;
+}
+
+
+#thumb-tab-nav{
+	background-color: #fff;
+	height: 400px;
+}
+
+
+/* Tab Nav (divulgação científica) */
+#nav-tab{
+	height: 60px;
+}
+
+.nav-item{
+	height: 60px;
+	float: left;
+	margin-left: 5px;
+	padding: 20px;
+}
+
+.nav-item:hover{
+	background-color: #fff;
+}
+
+div.nav-item > div.items p:target{
+	background-color: #fff;
+	color: #000;
+}
+
+.tabcontent h1, h2, h3,h4, h5, h6{
+	color: #000;
+}
+
+.tablink {
+	background-color: #cccccc;
+	color: #000;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 30px;
+	text-align: left;
+	background-color: #fff;
+	height: 347px !important;
+}
+
+
+
+/*
+* Bloco divulgação cientifica
+*/
+
+.last-papers{
+	background-color: #90b64a;
+	padding-bottom: 80px;
+}
+
+.last-papers p{
+	color: #fff
+}
+
+.last-papers a{
+	color: #fff !important;
+}
+
+.title-publicacoes{
+	margin: 60px 0px 30px 0px;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	color: #fff;
+	border-bottom: solid 2px #fff;
+}
+
+.tb-publicacao{
+	border-bottom: solid 1px #fff; 
+	border-top: solid 1px #fff;
+	padding: 10px;
+	width: 50%;
+	margin-top: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+
+ a:hover .tb-publicacao{
+	border-bottom: solid 2px #fff; 
+	border-top: solid 2px #fff; 
+	width: 50%;
+	margin-top: 30px;
+	background-color: #fff;
+	color: #4d4d4d;
+}
+
+
+#border-none [class="container"]{
+	background-color: transparent;
+}
+
+
+
+
+
+
+/*
+* Bloco notícias
+*/
+
+article a > #noticias {
+	padding-bottom: 50px
+}
+
+
+article a > #noticias > div.row {
+	padding-bottom: 10px
+}
+
+article a > #noticias img {
+	width: 100%;
+	height: 200px;
+}
+
+
+article a:hover > #noticias .img-destaque {
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+
+article a > #noticias .post-title {
+	border-bottom: solid 1px #ccc;
+}
+
+article a > #noticias .post-except{
+	padding-top: 20px;
+}
+
+
+.post-content{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border-bottom: solid 1px #ccc;
+}
+
+
+article a > #noticias .date-post {
+	border: 1px solid #e9e9e9;
+	border-radius: 8px;
+	-webkit-transition: all 0.2s ease-out 0s;
+	-o-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	height: 53px;
+	width: 53px;
+	text-align: center;
+	background-color: #f2f2f2;
+	font-size: 12px;
+}
+
+article a:hover > #noticias .date-post {
+	border: 1px solid #e9e9e9;
+	border-radius: 8px;
+	-webkit-transition: all 0.2s ease-out 0s;
+	-o-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	height: 53px;
+	width: 53px;
+	text-align: center;
+	background-color: #99cc00;
+	font-size: 12px;
+}
+
+
+
+/*
+* Bloco publicacao
+*/
+
+ #publicacao {
+	padding-bottom: 50px;
+}
+
+#publicacao > div.row {
+	padding-bottom: 10px
+}
+
+ #publicacao .post-title {
+	border-bottom: solid 1px #ccc;
+}
+
+ #publicacao .post-except{
+	padding-top: 20px;
+}
+
+.post-content{
+	padding-top: 20px;
+}
+
+
+article a > #publicacao .date-post {
+	-webkit-transition: all 0.2s ease-out 0s;
+	-o-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	font-size: 12px;
+}
+
+
+
+/*
+* Bloco equipe
+*/
+.metabox{
+	margin-bottom: 40px;
+}
+
+#icon-media{
+	margin-left: 12px;
+}
+
+.thumb-docente{
+	margin-bottom: 7%;
+}
+
+.thumb-docente img{
+	border-radius: 5%;
+	height: 250px;
+	width: 270px;
+}
+
+.title-docente{
+	font-size: 25px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+.icon-face{
+	margin-left: 0px !important;
+}
+
+#info-docente{
+	margin-left: 2%;
+}
+
+
+/*
+* Bloco front end Estudante / Pesquisadores / Tomadores de decisão 
+*/
+
+#divulgacao .title-seccao{
+	margin-top: 0px !important;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+}
+
+
+/*
+* Modal
+*/
+
+.font-P {
+	font-size: 14px !important;
+	line-height: 23px;
+}
+
+
+
+
+/*
+* Bloco Equipe
+*/
+
+.container-equipe {
+	position: relative;
+	/*height:400px;*/ 
+	width:350px;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.container-equipe:hover .overlay {
+  height: 100%;
+}
+
+.text {
+	white-space: nowrap;
+	color: #000;
+	font-size: 20px;
+	/*position: absolute;*/
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	/*transform: translate(-50%, -50%);*/
+	-ms-transform: translate(-50%, -50%);
+}
+
+.text a{ color: #000;}
+
+
+/*
+* Bloco Footer
+*/
+footer{
+	margin: 150px 0px 50px 0px;
+	font-size: 14px !important;
+}
+
+footer .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	margin-top: 0px;
+}
+
+/*Menu Footer*/
+.footer-title{
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 0px; 
+}
+
+.div-footer ul{
+	padding:0px;
+}
+
+.div-footer li{
+	list-style-type: none;
+}
+
+.div-footer ul li a:link{
+	color: #000;
+	text-decoration: none;
+}
+
+.copy{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+}
